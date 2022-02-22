@@ -5,7 +5,7 @@ export const Footer = () => {
     return (
         <S.Footer>
             <S.GithubLink
-                href='https://github.com'
+                href='https://uol.com.br'
                 target='_blank'
                 rel='noopener noreferrer'
             >

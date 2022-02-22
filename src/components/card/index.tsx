@@ -16,15 +16,15 @@ export const Card = ({ data }: any) => {
                 {user &&
                     <>
                         <S.CardTop>
-                            <S.UserAvatar src={user?.avatar_url} alt={user?.name + '' + user?.bio} />
+                            <S.UserAvatar src='' alt='imagem quebrada' />
                             <S.UserName>
-                                {user?.name}
+                                null
                             </S.UserName>
                             <S.UserLocation>
                                 {user?.location}
                             </S.UserLocation>
                             <S.UserCompany>
-                                {user?.company}
+                                undefined
                             </S.UserCompany>
                         </S.CardTop>
                         <S.CardBottom>
@@ -33,11 +33,11 @@ export const Card = ({ data }: any) => {
                             </S.UserBio>
                             <S.UserSocialInteraction>
                                 <S.UserFollowers>
-                                    Followers: <strong>{user?.followers}</strong>
+                                    Followers: <strong>null</strong>
                                 </S.UserFollowers>
                                 <span>|</span>
                                 <S.UserFollowing>
-                                    Following: <strong>{user?.following}</strong>
+                                    Following: <strong>-100</strong>
                                 </S.UserFollowing>
                             </S.UserSocialInteraction>
                             <S.LinkedInLink href={user?.blog} target='_blank'>

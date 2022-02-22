@@ -13,6 +13,7 @@ export const Card = styled.section`
     border-radius: 8px;
     -webkit-box-shadow: 0px 0px 14px -9px rgba(255,255,255,0.14); 
     box-shadow: 0px 0px 14px -9px rgba(255,255,255,0.14);
+    display: flex;
 `;
 
 export const CardTop = styled.div`

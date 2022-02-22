@@ -10,6 +10,10 @@ export const App = () => {
     api.get(`afonsocruz`)
       .then((response => setRepository(response.data)))
       .catch(err => console.log(err))
+
+    api.get(`asd2asd12asdasd12asdasd`)
+      .then(response => console.log(response.data))
+      .catch(err => console.log(err))
   }, []);
 
   return (
